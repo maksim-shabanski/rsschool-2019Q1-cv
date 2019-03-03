@@ -1,4 +1,3 @@
-
 Maksim Shabanski
 
 ### Contacts
