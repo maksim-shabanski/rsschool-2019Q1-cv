@@ -35,6 +35,12 @@ a {
     transition: all .15s ease-in-out;
 }
 
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 p {
     margin-bottom: 35px;
     font-size: 16px;
@@ -89,4 +95,13 @@ header {
 .exrerience-list p {
     margin-bottom: 0;
     color: rgba(0, 0, 0, .8);
+}
+
+.photo {
+    display: block;
+    margin-bottom: 35px;
+}
+
+.photo img {
+    max-width: 335px;
 }
