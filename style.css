@@ -69,3 +69,24 @@ header {
 .grid__right {
     grid-area: right;
 }
+
+.position {
+    letter-spacing: 3px;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.exrerience-list {
+    margin: 20px 0 35px;
+    list-style: none;
+}
+
+.exrerience-list li {
+    margin-bottom: 15px;
+}
+
+.exrerience-list p {
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, .8);
+}
