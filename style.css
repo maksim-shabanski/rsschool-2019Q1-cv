@@ -1,3 +1,8 @@
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -53,10 +58,12 @@ a:hover {
 }
 
 header {
-    margin-bottom: 50px;
+    padding-top: 25px;
+    margin-bottom: 60px;
 }
 
 .container {
+    padding: 10px 20px;
     width: 1024px;
     margin: 0 auto;
 }
@@ -64,8 +71,8 @@ header {
 .grid {
     display: grid;
     grid-template-areas: "left right";
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 65% 35%;
+    grid-gap: 30px;
 }
 
 .grid__left {
@@ -100,8 +107,4 @@ header {
 .photo {
     display: block;
     margin-bottom: 35px;
-}
-
-.photo img {
-    max-width: 335px;
 }
